@@ -18,6 +18,21 @@ a:hover {
     cursor: pointer;
 }
 
+.navbar-brand img {
+    width: 216px;
+    height: auto;
+}
+
+img .center-clock .image-resize-mode {
+    width: 100px;
+    height: auto;
+}
+
+img .img-responsive .portfolio-thumb {
+    width: 270px;
+    height: auto;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
