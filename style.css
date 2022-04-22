@@ -7,6 +7,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.text-black {
+    color: black !important;
+}
+
+footer {
+    background-color: #D14905 !important;
+    text-align: center;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -747,6 +756,9 @@ q, .description {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    position: relative;
+    color: #fff;
+    font-weight: 800;
 }
 
 h3 {
@@ -811,15 +823,17 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #D14905;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    position: relative;
+    color: #fff!important;
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #D14905;
     color: #FFFFFF!important;
 }
 
