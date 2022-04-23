@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a:focus, button:focus {
+    outline: 3px dashed black !important;
+    padding: 5px;
+}
+
 .text-black {
     color: black !important;
 }
@@ -19,7 +24,6 @@ footer {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -484,10 +488,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
-
 .btn-rd {
     border-radius: 40px;
 }
@@ -540,7 +540,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -749,6 +749,7 @@ q, .description {
 }
 
 .social {
+    color: #fff !important;
     max-width: 400px;
     margin: auto auto auto auto;
 }
