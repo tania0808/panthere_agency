@@ -112,6 +112,10 @@ function scrollToTopView() {
     $(window).scrollTop() > $(window).height() / 3 ? $(".scrollToTop").hasClass("showScrollTop") || $(".scrollToTop").addClass("showScrollTop") : $(".scrollToTop").removeClass("showScrollTop")
 }
 
+function scrollToTop() {
+    window.scrollTo(0, 0);
+}
+
 function setUpVisibilityToggle() {
     $(document).on("click", "[data-toggle-visibility]", function(t) {
         t.preventDefault();
