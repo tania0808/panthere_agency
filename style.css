@@ -27,7 +27,7 @@ p {
 }
 
 footer {
-    background-color: #D14905 !important;
+    background-color: #8F300A !important;
     text-align: center;
 }
 
@@ -647,12 +647,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #D14905;
+    background: #8F300A;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #99360F!important;
     color: #FFFFFF!important;
 }
 
